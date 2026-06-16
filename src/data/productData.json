@@ -1,0 +1,75 @@
+[
+  {
+  "id": 1,
+  "name": "Nike Air Max",
+  "category": "Shoes",
+  "price": 4999,
+  "stock": 25,
+  "sku": "SHOE-001",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 2,
+  "name": "Adidas Ultraboost",
+  "category": "Shoes",
+  "price": 6999,
+  "stock": 12,
+  "sku": "SHOE-002",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 3,
+  "name": "Casio G-Shock",
+  "category": "Watches",
+  "price": 3499,
+  "stock": 8,
+  "sku": "WATCH-001",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 4,
+  "name": "Apple AirPods Pro",
+  "category": "Electronics",
+  "price": 24999,
+  "stock": 15,
+  "sku": "ELEC-001",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 5,
+  "name": "Samsung Galaxy Buds",
+  "category": "Electronics",
+  "price": 8999,
+  "stock": 20,
+  "sku": "ELEC-002",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 6,
+  "name": "Puma Running Shoes",
+  "category": "Shoes",
+  "price": 3999,
+  "stock": 5,
+  "sku": "SHOE-003",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 7,
+  "name": "Fossil Gen 6",
+  "category": "Watches",
+  "price": 12999,
+  "stock": 7,
+  "sku": "WATCH-002",
+  "image": "https://placehold.co/100x100"
+  },
+  {
+  "id": 8,
+  "name": "Logitech MX Master 3",
+  "category": "Accessories",
+  "price": 7999,
+  "stock": 18,
+  "sku": "ACC-001",
+  "image": "https://placehold.co/100x100"
+  }
+  ]
+  
