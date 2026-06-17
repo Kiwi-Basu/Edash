@@ -1,0 +1,82 @@
+[
+  {
+    "id": "#CAT-001",
+    "name": "Footwear",
+    "icon": "👟",
+    "subcategories": ["Sneakers", "Crocs", "Sandals", "Loafers", "Boots", "Flip Flops"],
+    "productCount": 124,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-002",
+    "name": "Electronics",
+    "icon": "📱",
+    "subcategories": ["Smartphones", "Laptops", "Headphones", "Smart Watches", "Tablets", "Speakers"],
+    "productCount": 89,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-003",
+    "name": "Clothing",
+    "icon": "👕",
+    "subcategories": ["T-Shirts", "Jeans", "Jackets", "Dresses", "Hoodies", "Shorts"],
+    "productCount": 256,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-004",
+    "name": "Accessories",
+    "icon": "👜",
+    "subcategories": ["Watches", "Sunglasses", "Belts", "Wallets", "Caps", "Jewelry"],
+    "productCount": 67,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-005",
+    "name": "Home & Living",
+    "icon": "🏠",
+    "subcategories": ["Furniture", "Decor", "Kitchenware", "Bedding", "Lighting", "Storage"],
+    "productCount": 143,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-006",
+    "name": "Sports & Outdoors",
+    "icon": "⚽",
+    "subcategories": ["Yoga Mats", "Dumbbells", "Tents", "Cycling", "Camping Gear", "Water Bottles"],
+    "productCount": 95,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-007",
+    "name": "Beauty & Health",
+    "icon": "💄",
+    "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances", "Supplements", "Oral Care"],
+    "productCount": 178,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-008",
+    "name": "Books & Media",
+    "icon": "📚",
+    "subcategories": ["Fiction", "Non-Fiction", "Comics", "Magazines", "E-Books", "Audiobooks"],
+    "productCount": 312,
+    "status": "Draft"
+  },
+  {
+    "id": "#CAT-009",
+    "name": "Toys & Games",
+    "icon": "🧸",
+    "subcategories": ["Board Games", "Action Figures", "Puzzles", "Video Games", "Dolls", "Building Sets"],
+    "productCount": 54,
+    "status": "Active"
+  },
+  {
+    "id": "#CAT-010",
+    "name": "Automotive",
+    "icon": "🚗",
+    "subcategories": ["Car Accessories", "Tools", "Cleaning Kits", "GPS", "Dash Cams", "Seat Covers"],
+    "productCount": 36,
+    "status": "Inactive"
+  }
+]
