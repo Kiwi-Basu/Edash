@@ -1,83 +1,202 @@
 [
   {
-  "id": 1,
-  "name": "Nike Air Max",
-  "category": "Shoes",
-  "price": 4999,
-  "stock": 25,
-  "sku": "SHOE-001",
-  "image": "https://placehold.co/100x100",
-  "description": "Lightweight running shoes with responsive cushioning and breathable mesh for all-day comfort."
+    "id": "#1001",
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life, comfortable over-ear design, and crystal-clear audio quality. Perfect for music lovers and professionals.",
+    "price": 79,
+    "stock": 45,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop"
   },
   {
-  "id": 2,
-  "name": "Adidas Ultraboost",
-  "category": "Shoes",
-  "price": 6999,
-  "stock": 12,
-  "sku": "SHOE-002",
-  "image": "https://placehold.co/100x100",
-  "description": "Premium performance shoes featuring energy-return technology and a modern athletic design."
+    "id": "#1002",
+    "name": "Sneakers Air Max",
+    "category": "Footwear",
+    "description": "Classic Air Max sneakers with responsive cushioning, breathable mesh upper, and durable rubber outsole. Iconic style meets all-day comfort.",
+    "price": 129,
+    "stock": 12,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop"
   },
   {
-  "id": 3,
-  "name": "Casio G-Shock",
-  "category": "Watches",
-  "price": 3499,
-  "stock": 8,
-  "sku": "WATCH-001",
-  "image": "https://placehold.co/100x100",
-  "description": "Shock-resistant digital watch built for durability, outdoor adventures, and everyday wear."
+    "id": "#1003",
+    "name": "Organic Cotton T-Shirt",
+    "category": "Clothing",
+    "description": "Eco-friendly organic cotton t-shirt with a relaxed fit. Soft, breathable, and sustainably sourced. Available in multiple colors.",
+    "price": 34,
+    "stock": 0,
+    "status": "Out of Stock",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop"
   },
   {
-  "id": 4,
-  "name": "Apple AirPods Pro",
-  "category": "Electronics",
-  "price": 24999,
-  "stock": 15,
-  "sku": "ELEC-001",
-  "image": "https://placehold.co/100x100",
-  "description": "Wireless earbuds with active noise cancellation, immersive sound, and seamless device connectivity."
+    "id": "#1004",
+    "name": "Smart Watch Pro",
+    "category": "Electronics",
+    "description": "Advanced smartwatch with health monitoring, GPS tracking, waterproof design, and 7-day battery life. Your fitness companion.",
+    "price": 249,
+    "stock": 8,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop"
   },
   {
-  "id": 5,
-  "name": "Samsung Galaxy Buds",
-  "category": "Electronics",
-  "price": 8999,
-  "stock": 20,
-  "sku": "ELEC-002",
-  "image": "https://placehold.co/100x100",
-  "description": "Compact wireless earbuds delivering rich audio quality and long-lasting battery performance."
+    "id": "#1005",
+    "name": "Leather Backpack",
+    "category": "Accessories",
+    "description": "Handcrafted genuine leather backpack with padded laptop compartment, multiple pockets, and premium brass hardware. Style meets functionality.",
+    "price": 89,
+    "stock": 23,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop"
   },
   {
-  "id": 6,
-  "name": "Puma Running Shoes",
-  "category": "Shoes",
-  "price": 3999,
-  "stock": 5,
-  "sku": "SHOE-003",
-  "image": "https://placehold.co/100x100",
-  "description": "Comfortable running shoes designed with lightweight materials and enhanced grip technology."
+    "id": "#1006",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Portable waterproof Bluetooth speaker with 360-degree sound, 20-hour battery, and built-in microphone. Take the party anywhere.",
+    "price": 59,
+    "stock": 34,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop"
   },
   {
-  "id": 7,
-  "name": "Fossil Gen 6",
-  "category": "Watches",
-  "price": 12999,
-  "stock": 7,
-  "sku": "WATCH-002",
-  "image": "https://placehold.co/100x100",
-  "description": "Smartwatch featuring fitness tracking, notifications, and a sleek premium design."
+    "id": "#1007",
+    "name": "Yoga Mat Premium",
+    "category": "Sports & Outdoors",
+    "description": "Extra-thick premium yoga mat with non-slip surface, carrying strap, and alignment lines. Perfect for yoga, pilates, and stretching.",
+    "price": 44,
+    "stock": 67,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=400&fit=crop"
   },
   {
-  "id": 8,
-  "name": "Logitech MX Master 3",
-  "category": "Accessories",
-  "price": 7999,
-  "stock": 18,
-  "sku": "ACC-001",
-  "image": "https://placehold.co/100x100",
-  "description": "Advanced wireless productivity mouse with ergonomic comfort and precision scrolling."
+    "id": "#1008",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "description": "RGB mechanical keyboard with Cherry MX switches, aluminum frame, and programmable keys. Built for gamers and typists alike.",
+    "price": 149,
+    "stock": 15,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1009",
+    "name": "Coffee Maker Deluxe",
+    "category": "Home & Living",
+    "description": "Programmable 12-cup coffee maker with thermal carafe, built-in grinder, and brew strength selector. Your perfect morning starts here.",
+    "price": 119,
+    "stock": 28,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1010",
+    "name": "Running Shoes Ultra",
+    "category": "Footwear",
+    "description": "Lightweight running shoes with carbon fiber plate, responsive foam, and breathable knit upper. Designed for personal bests.",
+    "price": 179,
+    "stock": 0,
+    "status": "Out of Stock",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1011",
+    "name": "Desk Lamp LED",
+    "category": "Home & Living",
+    "description": "Adjustable LED desk lamp with wireless charging base, multiple color temperatures, and touch dimmer. Illuminate your workspace.",
+    "price": 69,
+    "stock": 52,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed7f5b5233?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1012",
+    "name": "Stainless Water Bottle",
+    "category": "Sports & Outdoors",
+    "description": "Double-wall vacuum insulated water bottle that keeps drinks cold 24h or hot 12h. BPA-free, leak-proof, and eco-friendly.",
+    "price": 299,
+    "stock": 89,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1013",
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "description": "Ergonomic gaming mouse with 16000 DPI optical sensor, 8 programmable buttons, and customizable RGB lighting. Precision meets comfort.",
+    "price": 79,
+    "stock": 41,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1014",
+    "name": "Sunglasses Aviator",
+    "category": "Accessories",
+    "description": "Classic aviator sunglasses with polarized UV400 lenses, lightweight titanium frame, and scratch-resistant coating. Timeless style.",
+    "price": 159,
+    "stock": 6,
+    "status": "Low Stock",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1015",
+    "name": "Hard Drive 2TB",
+    "category": "Electronics",
+    "description": "Portable 2TB external SSD with USB-C, read speeds up to 1050MB/s, and shock-resistant design. Carry your world in your pocket.",
+    "price": 139,
+    "stock": 33,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1016",
+    "name": "Electric Toothbrush",
+    "category": "Beauty & Health",
+    "description": "Sonic electric toothbrush with 5 cleaning modes, 2-minute smart timer, and USB-C charging. A dentist-recommended upgrade.",
+    "price": 89,
+    "stock": 17,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1017",
+    "name": "Plant Pot Set",
+    "category": "Home & Living",
+    "description": "Set of 3 modern ceramic plant pots with drainage holes and bamboo trays. Available in matte white, terracotta, and sage green.",
+    "price": 49,
+    "stock": 72,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1018",
+    "name": "Wireless Charger Pad",
+    "category": "Electronics",
+    "description": "Fast wireless charging pad compatible with all Qi devices. Slim design with LED indicator and foreign object detection.",
+    "price": 24,
+    "stock": 105,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1019",
+    "name": "Winter Jacket",
+    "category": "Clothing",
+    "description": "Insulated winter jacket with waterproof shell, down filling, and adjustable hood. Rated for temperatures down to -20°F.",
+    "price": 229,
+    "stock": 0,
+    "status": "Out of Stock",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop"
+  },
+  {
+    "id": "#1020",
+    "name": "Canvas Backpack",
+    "category": "Accessories",
+    "description": "Vintage-style canvas backpack with leather trim, padded laptop sleeve, and drawstring closure. Rugged everyday carry.",
+    "price": 64,
+    "stock": 38,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop"
   }
-  ]
-  
+]
