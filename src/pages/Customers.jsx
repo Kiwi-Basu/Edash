@@ -1,99 +1,89 @@
-import { useState } from "react";
-import customerData from "../data/customersData.json";
-import { ChevronLast , ChevronFirst , ChevronRight , ChevronLeft} from 'lucide-react'
-const Customers = () => {
-  const [currentPage,setCurrentPage] = useState(1)
-  const visible = 5
+import { useState } from 'react'
+import customers from '../data/customersData.json'
 
-  const totalPages = Math.ceil(customerData.length/visible)
-  const startIndex = (currentPage - 1) * visible
-  const currentCustomers = customerData.slice(startIndex,startIndex + visible)
-
-  const pages = Array.from(
-    { length: totalPages },
-    (_, i) => i + 1
-  );
+export default function Customers() {
+  const [list] = useState(customers)
+  const [view, setView] = useState(null)
 
   return (
-    <section className="p-8">
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold">Customers</h1>
-        <p className="text-gray-500">
-          Manage and view customer information
-        </p>
+    <div className="p-5">
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h2 className="text-2xl font-bold text-white">Customers</h2>
+          <p className="text-sm text-gray-500 mt-1">View and manage your customers</p>
+        </div>
+        <button className="px-5 py-2.5 bg-primary hover:bg-primary-hover text-white rounded-lg text-sm font-medium transition-colors cursor-pointer">Export List</button>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-md border border-black/15 overflow-hidden">
-
-        <div className="flex items-center justify-between p-5 border-b ">
-          <h2 className="font-semibold text-lg">
-            Customer List
-          </h2>
-
-          <input
-            type="text"
-            placeholder="Search customer..."
-            className="border border-black/10 rounded-lg px-4 py-2 outline-none focus:ring-2 focus:ring-black/10"
-          />
-        </div>
-        <div className="overflow-x-auto">
-          <div className="grid grid-cols-8 gap-4 p-4 bg-gray-100 font-semibold text-sm">
-            <p>ID</p>
-            <p>Name</p>
-            <p>Email</p>
-            <p>Phone</p>
-            <p>Address</p>
-            <p>Orders</p>
-            <p>Spent</p>
-            <p>Status</p>
-          </div>
-          {currentCustomers.map((customer) => (
-            <div key={customer.id} className="grid grid-cols-8 gap-5 px-4 py-2 border-t hover:bg-gray-50 transition-all ">
-              <p>#{customer.id}</p>
-
-              <p className="font-medium">{customer.name}</p>
-
-              <p className="">{customer.email}</p>
-
-              <p>{customer.phone}</p>
-
-              <p className="">{customer.address}</p>
-
-              <p>{customer.totalOrders}</p>
-
-              <p className="font-medium">₹{customer.totalSpent}</p>
-
-              <span className={`w-fit h-fit px-2 rounded-full py-0.5  text-sm font-medium ${ customer.status === "Active" ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700" }`}>
-                {customer.status}
-              </span>
+      <div className="grid gap-4">
+        {list.map(c => (
+          <div key={c.id} className="bg-white/3 border border-white/5 rounded-xl p-5 hover:bg-white/5 transition-colors cursor-pointer" onClick={() => setView(c)}>
+            <div className="flex items-center gap-4">
+              <img src={c.avatar} alt={c.name} className="w-10 h-10 rounded-full bg-gray-700" />
+              <div className="flex-1">
+                <p className="text-white font-medium">{c.name}</p>
+                <p className="text-xs text-gray-500">{c.email}</p>
+              </div>
+              <div className="text-right">
+                <p className="text-white font-semibold">${c.spent.toLocaleString()}</p>
+                <p className="text-xs text-gray-500">{c.orders} orders</p>
+              </div>
             </div>
-          ))}
-
-        </div>
-      <div className="flex items-center justify-center gap-2 p-5 border-t">
-        <button className="p-2 rounded-lg border hover:bg-gray-100" onClick={() => {setCurrentPage(1)}}><ChevronFirst size={18} /></button>
-        <button className="p-2 rounded-lg border hover:bg-gray-100" onClick={() => {setCurrentPage(currentPage <= 1 ? 1 : currentPage-1 )}}><ChevronLeft size={18} /></button>
-        {pages.map(page => (
-          <button
-            key={page}
-            onClick={() => setCurrentPage(page)}
-            className={`px-4 py-2 rounded
-              ${
-                currentPage === page
-                  ? "bg-black text-white"
-                  : "border"
-              }
-            `}
-          >
-            {page}
-          </button>
+          </div>
         ))}
-        <button className="p-2 rounded-lg border hover:bg-gray-100" onClick={() => {setCurrentPage(currentPage >= totalPages ? totalPages : currentPage+1 )}}><ChevronRight size={18} /></button>
-        <button className="p-2 rounded-lg border hover:bg-gray-100" onClick={() => {setCurrentPage(totalPages)}}><ChevronLast size={18} /></button>
       </div>
-      </div>
-    </section>
-  );
-};
 
-export default Customers;
+      {view && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={() => setView(null)}>
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" />
+          <div
+            className="relative w-full max-w-2xl bg-gray-900 border border-white/10 rounded-2xl shadow-2xl max-h-[90vh] flex flex-col"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between p-6 border-b border-white/5">
+              <h3 className="text-lg font-semibold text-white">{view.name}</h3>
+              <button onClick={() => setView(null)} className="text-gray-500 hover:text-white transition-colors text-xl leading-none cursor-pointer">&times;</button>
+            </div>
+            <div className="p-6 overflow-y-auto flex-1">
+              <div className="space-y-6">
+                <div className="flex items-center gap-5">
+                  <img src={view.avatar} alt={view.name} className="w-16 h-16 rounded-full bg-gray-700" />
+                  <div>
+                    <p className="text-xl font-bold text-white">{view.name}</p>
+                    <p className="text-sm text-gray-400">{view.email}</p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">Customer ID</p>
+                    <p className="text-white font-mono text-sm">{view.id}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">Phone</p>
+                    <p className="text-white">{view.phone}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">City</p>
+                    <p className="text-white">{view.city}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">Joined</p>
+                    <p className="text-white">{view.joined}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">Total Orders</p>
+                    <p className="text-2xl font-bold text-white">{view.orders}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider">Total Spent</p>
+                    <p className="text-2xl font-bold text-white">${view.spent.toLocaleString()}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
