@@ -16,7 +16,7 @@ const Sidebar = () => {
   return (
     <>
       <section id="sidebar">
-        <div className="border-r  w-max min-h-screen flex flex-col justify-evenly p-5 gap-2">
+        <div className="border-r sticky top-0  w-max min-h-screen flex flex-col justify-evenly p-5 gap-2">
           <div className='flex items-center justify-between w-full'>
             <img src="./favicon.svg" alt="logo" className='h-10 w-10 ' />
             {collapse ? <ArrowRightToLine className='h-10 w-10 ' onClick={() => {setCollapse(!collapse)}} /> : <ArrowLeftToLine className='h-10 w-10 ' onClick={() => {setCollapse(!collapse)}} /> }

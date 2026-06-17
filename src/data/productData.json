@@ -6,7 +6,8 @@
   "price": 4999,
   "stock": 25,
   "sku": "SHOE-001",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Lightweight running shoes with responsive cushioning and breathable mesh for all-day comfort."
   },
   {
   "id": 2,
@@ -15,7 +16,8 @@
   "price": 6999,
   "stock": 12,
   "sku": "SHOE-002",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Premium performance shoes featuring energy-return technology and a modern athletic design."
   },
   {
   "id": 3,
@@ -24,7 +26,8 @@
   "price": 3499,
   "stock": 8,
   "sku": "WATCH-001",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Shock-resistant digital watch built for durability, outdoor adventures, and everyday wear."
   },
   {
   "id": 4,
@@ -33,7 +36,8 @@
   "price": 24999,
   "stock": 15,
   "sku": "ELEC-001",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Wireless earbuds with active noise cancellation, immersive sound, and seamless device connectivity."
   },
   {
   "id": 5,
@@ -42,7 +46,8 @@
   "price": 8999,
   "stock": 20,
   "sku": "ELEC-002",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Compact wireless earbuds delivering rich audio quality and long-lasting battery performance."
   },
   {
   "id": 6,
@@ -51,7 +56,8 @@
   "price": 3999,
   "stock": 5,
   "sku": "SHOE-003",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Comfortable running shoes designed with lightweight materials and enhanced grip technology."
   },
   {
   "id": 7,
@@ -60,7 +66,8 @@
   "price": 12999,
   "stock": 7,
   "sku": "WATCH-002",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Smartwatch featuring fitness tracking, notifications, and a sleek premium design."
   },
   {
   "id": 8,
@@ -69,7 +76,8 @@
   "price": 7999,
   "stock": 18,
   "sku": "ACC-001",
-  "image": "https://placehold.co/100x100"
+  "image": "https://placehold.co/100x100",
+  "description": "Advanced wireless productivity mouse with ergonomic comfort and precision scrolling."
   }
   ]
   
