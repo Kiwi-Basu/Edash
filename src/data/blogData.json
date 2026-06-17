@@ -1,0 +1,67 @@
+[
+  {
+    "id": "#B-001",
+    "title": "10 Tips for Better E-Commerce UX",
+    "author": "Sarah Manager",
+    "authorAvatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sarah",
+    "date": "2026-06-15",
+    "views": 2400,
+    "comments": 18,
+    "status": "Published",
+    "excerpt": "Discover the top 10 user experience tips that can dramatically improve your e-commerce conversion rates and customer satisfaction.",
+    "category": "UX Design",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "#B-002",
+    "title": "How to Reduce Cart Abandonment",
+    "author": "John Editor",
+    "authorAvatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=John",
+    "date": "2026-06-14",
+    "views": 1800,
+    "comments": 12,
+    "status": "Published",
+    "excerpt": "Learn proven strategies to recover lost sales and reduce your cart abandonment rate by up to 40%.",
+    "category": "Conversion",
+    "image": "https://images.unsplash.com/photo-1553729459-afe8f2e2b7a5?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "#B-003",
+    "title": "Summer Collection 2026 Preview",
+    "author": "Lisa Content",
+    "authorAvatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Lisa",
+    "date": "2026-06-12",
+    "views": 3200,
+    "comments": 24,
+    "status": "Published",
+    "excerpt": "Get an exclusive first look at our upcoming summer collection featuring bold colors and sustainable materials.",
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "#B-004",
+    "title": "Shipping Policy Updates",
+    "author": "Emily Support",
+    "authorAvatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Emily",
+    "date": "2026-06-10",
+    "views": 892,
+    "comments": 5,
+    "status": "Published",
+    "excerpt": "Important updates to our shipping policy including new international shipping options and faster delivery times.",
+    "category": "Announcements",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "#B-005",
+    "title": "Guide to Sustainable Shopping",
+    "author": "Lisa Content",
+    "authorAvatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Lisa",
+    "date": "2026-06-03",
+    "views": 5300,
+    "comments": 42,
+    "status": "Published",
+    "excerpt": "Your comprehensive guide to making environmentally conscious purchasing decisions without compromising on quality.",
+    "category": "Sustainability",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop"
+  }
+]
