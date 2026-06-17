@@ -23,7 +23,7 @@ export default function Categories() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         {stats.map(s => (
-          <div key={s.label} className="bg-white/[0.03] border border-white/5 rounded-xl p-5">
+          <div key={s.label} className="bg-white/3 border border-white/5 rounded-xl p-5">
             <p className="text-sm text-gray-500">{s.label}</p>
             <p className="text-2xl font-bold text-white mt-1">{s.value}</p>
           </div>

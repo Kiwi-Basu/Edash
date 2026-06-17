@@ -17,7 +17,7 @@ export default function Blogs() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {list.map(b => (
-          <div key={b.id} className="bg-white/[0.03] border border-white/5 rounded-xl overflow-hidden hover:border-white/10 transition-all group cursor-pointer" onClick={() => setView(b)}>
+          <div key={b.id} className="bg-white/3 border border-white/5 rounded-xl overflow-hidden hover:border-white/10 transition-all group cursor-pointer" onClick={() => setView(b)}>
             <div className="h-44 overflow-hidden bg-gray-800/50">
               <img src={b.image} alt={b.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>

@@ -24,8 +24,8 @@ export default function Orders() {
         </div>
       </div>
 
-      <div className="bg-white/[0.03] border border-white/5 rounded-xl overflow-hidden">
-        <div className="grid grid-cols-6 gap-4 p-4 bg-white/[0.05] text-xs text-gray-500 uppercase tracking-wider font-medium">
+      <div className="bg-white/3 border border-white/5 rounded-xl overflow-hidden">
+        <div className="grid grid-cols-6 gap-4 p-4 bg-white/5 text-xs text-gray-500 uppercase tracking-wider font-medium">
           <p>Order ID</p>
           <p>Customer</p>
           <p>Items</p>
@@ -34,7 +34,7 @@ export default function Orders() {
           <p>Status</p>
         </div>
         {list.map(o => (
-          <div key={o.id} className="grid grid-cols-6 gap-4 px-4 py-3 border-t border-white/5 hover:bg-white/[0.03] transition-colors cursor-pointer" onClick={() => setView(o)}>
+          <div key={o.id} className="grid grid-cols-6 gap-4 px-4 py-3 border-t border-white/5 hover:bg-white/3 transition-colors cursor-pointer" onClick={() => setView(o)}>
             <p className="text-white font-mono text-sm">{o.id}</p>
             <p className="text-white text-sm">{o.customer}</p>
             <p className="text-gray-400 text-sm">{o.items}</p>
