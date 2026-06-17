@@ -6,6 +6,9 @@ import Products from "./pages/Products";
 import Customers from "./pages/Customers";
 import Blogs from "./pages/Blogs";
 import Orders from "./pages/Orders";
+import Users from "./pages/Users";
+import Categories from "./pages/Categories";
+import CategoryProducts from "./pages/CategoryProducts";
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
                 <Route path="/customers" element={<Customers/>} />
                 <Route path="/blogs" element={<Blogs/>} />
                 <Route path="/orders" element={<Orders/>} />
+                <Route path="/users" element={<Users/>} />
+                <Route path="/categories" element={<Categories/>} />
+                <Route path="/categories/:name" element={<CategoryProducts/>} />
               </Route>
             </Routes>
           </BrowserRouter>

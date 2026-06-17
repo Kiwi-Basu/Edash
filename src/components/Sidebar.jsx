@@ -7,16 +7,16 @@ const Sidebar = () => {
     { name: "Products", icon: ShoppingCart, link : "/"},
     { name: "Customers", icon: User, link : "/customers" },
     { name: "Blogs", icon: NotebookPen, link : "/blogs" },
-    { name: "Category", icon: Target, link : "/" },
+    { name: "Category", icon: Target, link : "/categories" },
     { name: "Orders", icon: Van, link : "/orders" },
-    { name: "Users",icon: CircleUser, link : "/" },
+    { name: "Users",icon: CircleUser, link : "/users" },
     { name: "Stock", icon: Cuboid, link : "/" },
   ]
   const [collapse,setCollapse] = useState(false)
   return (
     <>
       <section id="sidebar">
-        <div className="border-r sticky top-0  w-max min-h-screen flex flex-col justify-evenly p-5 gap-2">
+        <div className="border-r bg-sidebar text-white sticky top-0  w-max min-h-screen flex flex-col justify-evenly p-5 gap-2">
           <div className='flex items-center justify-between w-full'>
             <img src="./favicon.svg" alt="logo" className='h-10 w-10 ' />
             {collapse ? <ArrowRightToLine className='h-10 w-10 ' onClick={() => {setCollapse(!collapse)}} /> : <ArrowLeftToLine className='h-10 w-10 ' onClick={() => {setCollapse(!collapse)}} /> }
@@ -25,7 +25,7 @@ const Sidebar = () => {
             {menuItems.map((menu,i) => {
               const Icons = menu.icon
               return (      
-                  <button onClick={()=> {navigate(menu.link)}} key={i} className={`border border-black/20 ${collapse ? "px-2 justify-center" : "px-10"} py-2 rounded-lg shadow-2xl  w-full cursor-pointer hover:bg-black/10 transition-all duration-300 flex gap-3`}><Icons />{!collapse &&  menu.name}</button>
+                  <button onClick={()=> {navigate(menu.link)}} key={i} className={` ${collapse ? "px-2 justify-center" : "px-10"} py-2 rounded-lg shadow-2xl  w-full cursor-pointer hover:bg-sidebar-hover transition-all duration-300 flex gap-3`}><Icons />{!collapse &&  menu.name}</button>
                 )})}
           </div>
           

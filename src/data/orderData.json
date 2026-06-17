@@ -1,0 +1,74 @@
+[
+  {
+    "id": "#ORD-001",
+    "customer": "Alice Johnson",
+    "items": 3,
+    "total": 234.97,
+    "date": "2026-06-15",
+    "status": "Shipped",
+    "products": ["Wireless Headphones", "Organic Cotton T-Shirt", "Leather Backpack"]
+  },
+  {
+    "id": "#ORD-002",
+    "customer": "Bob Smith",
+    "items": 1,
+    "total": 79.99,
+    "date": "2026-06-15",
+    "status": "Processing",
+    "products": ["Wireless Headphones"]
+  },
+  {
+    "id": "#ORD-003",
+    "customer": "Carol White",
+    "items": 5,
+    "total": 519.95,
+    "date": "2026-06-14",
+    "status": "Delivered",
+    "products": ["Sneakers Air Max", "Smart Watch Pro", "Leather Backpack", "Yoga Mat Premium", "Bluetooth Speaker"]
+  },
+  {
+    "id": "#ORD-004",
+    "customer": "David Lee",
+    "items": 2,
+    "total": 179.98,
+    "date": "2026-06-14",
+    "status": "Cancelled",
+    "products": ["Sneakers Air Max", "Mechanical Keyboard"]
+  },
+  {
+    "id": "#ORD-005",
+    "customer": "Eve Davis",
+    "items": 4,
+    "total": 389.96,
+    "date": "2026-06-13",
+    "status": "Shipped",
+    "products": ["Smart Watch Pro", "Leather Backpack", "Bluetooth Speaker", "Yoga Mat Premium"]
+  },
+  {
+    "id": "#ORD-006",
+    "customer": "Frank Miller",
+    "items": 1,
+    "total": 149.99,
+    "date": "2026-06-13",
+    "status": "Processing",
+    "products": ["Mechanical Keyboard"]
+  },
+  {
+    "id": "#ORD-007",
+    "customer": "Grace Wilson",
+    "items": 2,
+    "total": 109.98,
+    "date": "2026-06-12",
+    "status": "Delivered",
+    "products": ["Wireless Headphones", "Organic Cotton T-Shirt"]
+  },
+  {
+    "id": "#ORD-008",
+    "customer": "Henry Brown",
+    "items": 3,
+    "total": 264.97,
+    "date": "2026-06-12",
+    "status": "Shipped",
+    "products": ["Sneakers Air Max", "Organic Cotton T-Shirt", "Leather Backpack"]
+  }
+]

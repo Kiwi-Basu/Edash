@@ -1,0 +1,57 @@
+[
+  {
+    "id": "#U-001",
+    "name": "Admin",
+    "email": "admin@shop.com",
+    "role": "Super Admin",
+    "status": "Active",
+    "lastActive": "2026-06-17T10:30:00Z",
+    "avatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Admin",
+    "permissions": ["All"],
+    "department": "Management"
+  },
+  {
+    "id": "#U-002",
+    "name": "Sarah Manager",
+    "email": "sarah@shop.com",
+    "role": "Manager",
+    "status": "Active",
+    "lastActive": "2026-06-17T10:15:00Z",
+    "avatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sarah",
+    "permissions": ["Products", "Orders", "Users"],
+    "department": "Operations"
+  },
+  {
+    "id": "#U-003",
+    "name": "John Editor",
+    "email": "john@shop.com",
+    "role": "Editor",
+    "status": "Active",
+    "lastActive": "2026-06-17T09:00:00Z",
+    "avatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=John",
+    "permissions": ["Products", "Blogs"],
+    "department": "Content"
+  },
+  {
+    "id": "#U-004",
+    "name": "Emily Support",
+    "email": "emily@shop.com",
+    "role": "Support",
+    "status": "Active",
+    "lastActive": "2026-06-17T07:00:00Z",
+    "avatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Emily",
+    "permissions": ["Orders", "Customers"],
+    "department": "Support"
+  },
+  {
+    "id": "#U-005",
+    "name": "Mike Viewer",
+    "email": "mike@shop.com",
+    "role": "Viewer",
+    "status": "Inactive",
+    "lastActive": "2026-06-15T14:00:00Z",
+    "avatar": "https://api.dicebear.com/9.x/avataaars/svg?seed=Mike",
+    "permissions": ["Read Only"],
+    "department": "Marketing"
+  }
+]

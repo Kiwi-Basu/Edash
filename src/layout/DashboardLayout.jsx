@@ -5,9 +5,9 @@ const DashboardLayout = () => {
   return (
     <>
       <section id="dashboard-layout">
-        <div className="flex">
+        <div className="flex bg-gray-950">
           <Sidebar />
-          <div className="flex-1">
+          <div className="flex-1 ">
             <Outlet />
           </div>
         
